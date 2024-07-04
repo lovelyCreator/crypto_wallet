@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		EtherWalletKit::EtherWalletKitPackageTests::ProductTarget /* EtherWalletKitPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_31 /* Build configuration list for PBXAggregateTarget "EtherWalletKitPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_34 /* PBXTargetDependency */,
+			);
+			name = EtherWalletKitPackageTests;
+			productName = EtherWalletKitPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1EDFEC0DB3B02D59F8E546BB /* Pods_EtherWalletKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF04867D39E0379185470242 /* Pods_EtherWalletKit.framework */; };
+		E4746BA3B4CE720D158512A1 /* Pods_EtherWalletKitTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D808C8FA634AFA1C9EA96F19 /* Pods_EtherWalletKitTest.framework */; };
+		E83118B620F3391E00FF3CCC /* EtherWallet+Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83118B520F3391E00FF3CCC /* EtherWallet+Account.swift */; };
+		E83118BA20F33BCA00FF3CCC /* EtherWallet+Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83118B920F33BC900FF3CCC /* EtherWallet+Balance.swift */; };
+		E83118C120F4523D00FF3CCC /* EtherWallet+Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83118C020F4523A00FF3CCC /* EtherWallet+Transaction.swift */; };
+		E83C24A120E399B0005645EF /* EtherWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83C24A020E399B0005645EF /* EtherWallet.swift */; };
+		E83C24AB20E39BE6005645EF /* EtherscanAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83C24AA20E39BE6005645EF /* EtherscanAPIResponse.swift */; };
+		E83C24AF20E39C2F005645EF /* TransactionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83C24AE20E39C2F005645EF /* TransactionData.swift */; };
+		E849CEBA20EB1D0700F38B76 /* GasStationAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E849CEB920EB1D0700F38B76 /* GasStationAPIResponse.swift */; };
+		E849CEBC20EB4BA200F38B76 /* EthplorerAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E849CEBB20EB4BA200F38B76 /* EthplorerAPIResponse.swift */; };
+		E849CEBE20EB5C3B00F38B76 /* WalletError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E849CEBD20EB5C3B00F38B76 /* WalletError.swift */; };
+		E86669C621024E1200F99335 /* EtherWallet+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86669C521024E1200F99335 /* EtherWallet+Util.swift */; };
+		E8B4753B21002C98004B65E9 /* EtherWallet+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B4753A21002C98004B65E9 /* EtherWallet+Info.swift */; };
+		E8CB3D7821043E8D00AC6A14 /* EtherWallet+History.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CB3D7721043E8D00AC6A14 /* EtherWallet+History.swift */; };
+		E8D4CF342109CCB4008476B8 /* EtherWalletTestnets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D4CF332109CCB4008476B8 /* EtherWalletTestnets.swift */; };
+		E8D4CF3E2109F07D008476B8 /* EtherWalletKitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D4CF3D2109F07D008476B8 /* EtherWalletKitTest.swift */; };
+		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_43 /* EtherWalletKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EtherWalletKit::EtherWalletKit::Product /* EtherWalletKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8665C8320E3939600F4AD19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "EtherWalletKit::EtherWalletKit";
+			remoteInfo = EtherWalletKit;
+		};
+		E8665C8420E3939A00F4AD19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "EtherWalletKit::EtherWalletKitTests";
+			remoteInfo = EtherWalletKitTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E8CA9E4F2109FC0600F48458 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		20E55D35F58BE23153B75758 /* Pods-EtherWalletKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtherWalletKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EtherWalletKit/Pods-EtherWalletKit.debug.xcconfig"; sourceTree = "<group>"; };
+		29F409A933CCEC902753AC43 /* Pods_EtherWalletKit_EtherWalletKitTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EtherWalletKit_EtherWalletKitTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58BEAAFE6E50744CCC966592 /* Pods-EtherWalletKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtherWalletKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-EtherWalletKit/Pods-EtherWalletKit.release.xcconfig"; sourceTree = "<group>"; };
+		6049B9E4E2D438BB6F94139B /* Pods-EtherWalletKit-EtherWalletKitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtherWalletKit-EtherWalletKitTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EtherWalletKit-EtherWalletKitTest/Pods-EtherWalletKit-EtherWalletKitTest.debug.xcconfig"; sourceTree = "<group>"; };
+		63C3EA9E421DCB0B6F2524FD /* Pods-EtherWalletKitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtherWalletKitTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-EtherWalletKitTest/Pods-EtherWalletKitTest.release.xcconfig"; sourceTree = "<group>"; };
+		74D93172CB9698EEC90AF45E /* Pods-EtherWalletKitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtherWalletKitTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EtherWalletKitTest/Pods-EtherWalletKitTest.debug.xcconfig"; sourceTree = "<group>"; };
+		CF04867D39E0379185470242 /* Pods_EtherWalletKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EtherWalletKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D808C8FA634AFA1C9EA96F19 /* Pods_EtherWalletKitTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EtherWalletKitTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3051174CD82B2B4C9FA3E45 /* Pods-EtherWalletKit-EtherWalletKitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtherWalletKit-EtherWalletKitTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-EtherWalletKit-EtherWalletKitTest/Pods-EtherWalletKit-EtherWalletKitTest.release.xcconfig"; sourceTree = "<group>"; };
+		E83118B520F3391E00FF3CCC /* EtherWallet+Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EtherWallet+Account.swift"; sourceTree = "<group>"; };
+		E83118B920F33BC900FF3CCC /* EtherWallet+Balance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EtherWallet+Balance.swift"; sourceTree = "<group>"; };
+		E83118C020F4523A00FF3CCC /* EtherWallet+Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EtherWallet+Transaction.swift"; sourceTree = "<group>"; };
+		E83C24A020E399B0005645EF /* EtherWallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtherWallet.swift; sourceTree = "<group>"; };
+		E83C24AA20E39BE6005645EF /* EtherscanAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtherscanAPIResponse.swift; sourceTree = "<group>"; };
+		E83C24AE20E39C2F005645EF /* TransactionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionData.swift; sourceTree = "<group>"; };
+		E849CEB920EB1D0700F38B76 /* GasStationAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStationAPIResponse.swift; sourceTree = "<group>"; };
+		E849CEBB20EB4BA200F38B76 /* EthplorerAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthplorerAPIResponse.swift; sourceTree = "<group>"; };
+		E849CEBD20EB5C3B00F38B76 /* WalletError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletError.swift; sourceTree = "<group>"; };
+		E8665C8520E394CF00F4AD19 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E8665C8620E394CF00F4AD19 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E8665C8720E394CF00F4AD19 /* EtherWalletKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EtherWalletKit.podspec; sourceTree = "<group>"; };
+		E86669C521024E1200F99335 /* EtherWallet+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EtherWallet+Util.swift"; sourceTree = "<group>"; };
+		E8B4753A21002C98004B65E9 /* EtherWallet+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EtherWallet+Info.swift"; sourceTree = "<group>"; };
+		E8CB3D7721043E8D00AC6A14 /* EtherWallet+History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EtherWallet+History.swift"; sourceTree = "<group>"; };
+		E8D4CF332109CCB4008476B8 /* EtherWalletTestnets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtherWalletTestnets.swift; sourceTree = "<group>"; };
+		E8D4CF362109E66D008476B8 /* Document.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Document.md; sourceTree = "<group>"; };
+		E8D4CF3B2109F07D008476B8 /* EtherWalletKitTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtherWalletKitTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D4CF3D2109F07D008476B8 /* EtherWalletKitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtherWalletKitTest.swift; sourceTree = "<group>"; };
+		E8D4CF3F2109F07D008476B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EtherWalletKit::EtherWalletKit::Product /* EtherWalletKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EtherWalletKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EtherWalletKit::EtherWalletKitTests::Product /* EtherWalletKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = EtherWalletKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23A961ACB3F6BDC02E74968E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D4CF382109F07D008476B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4746BA3B4CE720D158512A1 /* Pods_EtherWalletKitTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				1EDFEC0DB3B02D59F8E546BB /* Pods_EtherWalletKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_43 /* EtherWalletKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		287731197E01E164172DCDF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF04867D39E0379185470242 /* Pods_EtherWalletKit.framework */,
+				29F409A933CCEC902753AC43 /* Pods_EtherWalletKit_EtherWalletKitTest.framework */,
+				D808C8FA634AFA1C9EA96F19 /* Pods_EtherWalletKitTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83A5C5AAC8028885D5C13320 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20E55D35F58BE23153B75758 /* Pods-EtherWalletKit.debug.xcconfig */,
+				58BEAAFE6E50744CCC966592 /* Pods-EtherWalletKit.release.xcconfig */,
+				6049B9E4E2D438BB6F94139B /* Pods-EtherWalletKit-EtherWalletKitTest.debug.xcconfig */,
+				E3051174CD82B2B4C9FA3E45 /* Pods-EtherWalletKit-EtherWalletKitTest.release.xcconfig */,
+				74D93172CB9698EEC90AF45E /* Pods-EtherWalletKitTest.debug.xcconfig */,
+				63C3EA9E421DCB0B6F2524FD /* Pods-EtherWalletKitTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E83C249E20E399B0005645EF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E849CEB820EB19C200F38B76 /* Structure */,
+				E83C249F20E399B0005645EF /* Wallet */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E83C249F20E399B0005645EF /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				E83C24A020E399B0005645EF /* EtherWallet.swift */,
+				E83118B520F3391E00FF3CCC /* EtherWallet+Account.swift */,
+				E83118B920F33BC900FF3CCC /* EtherWallet+Balance.swift */,
+				E83118C020F4523A00FF3CCC /* EtherWallet+Transaction.swift */,
+				E8B4753A21002C98004B65E9 /* EtherWallet+Info.swift */,
+				E8CB3D7721043E8D00AC6A14 /* EtherWallet+History.swift */,
+				E86669C521024E1200F99335 /* EtherWallet+Util.swift */,
+				E8D4CF332109CCB4008476B8 /* EtherWalletTestnets.swift */,
+				E849CEBD20EB5C3B00F38B76 /* WalletError.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		E849CEB820EB19C200F38B76 /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+				E83C24AA20E39BE6005645EF /* EtherscanAPIResponse.swift */,
+				E849CEB920EB1D0700F38B76 /* GasStationAPIResponse.swift */,
+				E849CEBB20EB4BA200F38B76 /* EthplorerAPIResponse.swift */,
+				E83C24AE20E39C2F005645EF /* TransactionData.swift */,
+			);
+			path = Structure;
+			sourceTree = "<group>";
+		};
+		E8D4CF352109E66D008476B8 /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				E8D4CF362109E66D008476B8 /* Document.md */,
+			);
+			path = Docs;
+			sourceTree = "<group>";
+		};
+		E8D4CF3C2109F07D008476B8 /* EtherWalletKitTest */ = {
+			isa = PBXGroup;
+			children = (
+				E8D4CF3D2109F07D008476B8 /* EtherWalletKitTest.swift */,
+				E8D4CF3F2109F07D008476B8 /* Info.plist */,
+			);
+			path = EtherWalletKitTest;
+			sourceTree = "<group>";
+		};
+		OBJ_14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EtherWalletKit::EtherWalletKitTests::Product /* EtherWalletKitTests.xctest */,
+				EtherWalletKit::EtherWalletKit::Product /* EtherWalletKit.framework */,
+				E8D4CF3B2109F07D008476B8 /* EtherWalletKitTest.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				E8665C8720E394CF00F4AD19 /* EtherWalletKit.podspec */,
+				E8665C8520E394CF00F4AD19 /* LICENSE */,
+				E8665C8620E394CF00F4AD19 /* README.md */,
+				E83C249E20E399B0005645EF /* Sources */,
+				E8D4CF352109E66D008476B8 /* Docs */,
+				E8D4CF3C2109F07D008476B8 /* EtherWalletKitTest */,
+				OBJ_14 /* Products */,
+				83A5C5AAC8028885D5C13320 /* Pods */,
+				287731197E01E164172DCDF5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8D4CF3A2109F07D008476B8 /* EtherWalletKitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8D4CF402109F07D008476B8 /* Build configuration list for PBXNativeTarget "EtherWalletKitTest" */;
+			buildPhases = (
+				BB104CFDCBEFDE4B9B23AA5A /* [CP] Check Pods Manifest.lock */,
+				E8D4CF372109F07D008476B8 /* Sources */,
+				E8D4CF382109F07D008476B8 /* Frameworks */,
+				E8D4CF392109F07D008476B8 /* Resources */,
+				E8CA9E4F2109FC0600F48458 /* CopyFiles */,
+				D62F1E8A6BB12A40C37E82EC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EtherWalletKitTest;
+			productName = EtherWalletKitTest;
+			productReference = E8D4CF3B2109F07D008476B8 /* EtherWalletKitTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EtherWalletKit::EtherWalletKit /* EtherWalletKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_18 /* Build configuration list for PBXNativeTarget "EtherWalletKit" */;
+			buildPhases = (
+				7ABA8827529429D5C2B7EEF4 /* [CP] Check Pods Manifest.lock */,
+				OBJ_21 /* Sources */,
+				OBJ_23 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EtherWalletKit;
+			productName = EtherWalletKit;
+			productReference = EtherWalletKit::EtherWalletKit::Product /* EtherWalletKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EtherWalletKit::EtherWalletKitTests /* EtherWalletKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_36 /* Build configuration list for PBXNativeTarget "EtherWalletKitTests" */;
+			buildPhases = (
+				OBJ_39 /* Sources */,
+				OBJ_42 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_44 /* PBXTargetDependency */,
+			);
+			name = EtherWalletKitTests;
+			productName = EtherWalletKitTests;
+			productReference = EtherWalletKit::EtherWalletKitTests::Product /* EtherWalletKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EtherWalletKit::SwiftPMPackageDescription /* EtherWalletKitPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_25 /* Build configuration list for PBXNativeTarget "EtherWalletKitPackageDescription" */;
+			buildPhases = (
+				OBJ_28 /* Sources */,
+				23A961ACB3F6BDC02E74968E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EtherWalletKitPackageDescription;
+			productName = EtherWalletKitPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					E8D4CF3A2109F07D008476B8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						DevelopmentTeam = T4C6698GAN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "EtherWalletKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EtherWalletKit::EtherWalletKit /* EtherWalletKit */,
+				EtherWalletKit::SwiftPMPackageDescription /* EtherWalletKitPackageDescription */,
+				EtherWalletKit::EtherWalletKitPackageTests::ProductTarget /* EtherWalletKitPackageTests */,
+				EtherWalletKit::EtherWalletKitTests /* EtherWalletKitTests */,
+				E8D4CF3A2109F07D008476B8 /* EtherWalletKitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8D4CF392109F07D008476B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7ABA8827529429D5C2B7EEF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EtherWalletKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB104CFDCBEFDE4B9B23AA5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EtherWalletKitTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D62F1E8A6BB12A40C37E82EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EtherWalletKitTest/Pods-EtherWalletKitTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BigInt-iOS11.4/BigInt.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift-iOS11.4/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/EthereumABI-iOS11.4/EthereumABI.framework",
+				"${BUILT_PRODUCTS_DIR}/EthereumAddress-iOS11.4/EthereumAddress.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit-iOS11.4/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SipHash-iOS11.4/SipHash.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftRLP-iOS11.4/SwiftRLP.framework",
+				"${BUILT_PRODUCTS_DIR}/scrypt-iOS11.4/scrypt.framework",
+				"${BUILT_PRODUCTS_DIR}/secp256k1_swift-iOS11.4/secp256k1_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/web3swift-iOS11.4/Web3swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EthereumABI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EthereumAddress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SipHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftRLP.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/scrypt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/secp256k1_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Web3swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EtherWalletKitTest/Pods-EtherWalletKitTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8D4CF372109F07D008476B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D4CF3E2109F07D008476B8 /* EtherWalletKitTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E83C24A120E399B0005645EF /* EtherWallet.swift in Sources */,
+				E83C24AF20E39C2F005645EF /* TransactionData.swift in Sources */,
+				E86669C621024E1200F99335 /* EtherWallet+Util.swift in Sources */,
+				E849CEBA20EB1D0700F38B76 /* GasStationAPIResponse.swift in Sources */,
+				E849CEBE20EB5C3B00F38B76 /* WalletError.swift in Sources */,
+				E83118C120F4523D00FF3CCC /* EtherWallet+Transaction.swift in Sources */,
+				E83118B620F3391E00FF3CCC /* EtherWallet+Account.swift in Sources */,
+				E849CEBC20EB4BA200F38B76 /* EthplorerAPIResponse.swift in Sources */,
+				E83118BA20F33BCA00FF3CCC /* EtherWallet+Balance.swift in Sources */,
+				E83C24AB20E39BE6005645EF /* EtherscanAPIResponse.swift in Sources */,
+				E8CB3D7821043E8D00AC6A14 /* EtherWallet+History.swift in Sources */,
+				E8D4CF342109CCB4008476B8 /* EtherWalletTestnets.swift in Sources */,
+				E8B4753B21002C98004B65E9 /* EtherWallet+Info.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_29 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EtherWalletKit::EtherWalletKitTests /* EtherWalletKitTests */;
+			targetProxy = E8665C8420E3939A00F4AD19 /* PBXContainerItemProxy */;
+		};
+		OBJ_44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EtherWalletKit::EtherWalletKit /* EtherWalletKit */;
+			targetProxy = E8665C8320E3939600F4AD19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E8D4CF412109F07D008476B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74D93172CB9698EEC90AF45E /* Pods-EtherWalletKitTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4C6698GAN;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = EtherWalletKitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SteadyAction.EtherWalletKitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8D4CF422109F07D008476B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C3EA9E421DCB0B6F2524FD /* Pods-EtherWalletKitTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = T4C6698GAN;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = EtherWalletKitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SteadyAction.EtherWalletKitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		OBJ_19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E55D35F58BE23153B75758 /* Pods-EtherWalletKit.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EtherWalletKit.xcodeproj/EtherWalletKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = EtherWalletKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = EtherWalletKit;
+			};
+			name = Debug;
+		};
+		OBJ_20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58BEAAFE6E50744CCC966592 /* Pods-EtherWalletKit.release.xcconfig */;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EtherWalletKit.xcodeproj/EtherWalletKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = EtherWalletKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = EtherWalletKit;
+			};
+			name = Release;
+		};
+		OBJ_26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EtherWalletKit.xcodeproj/EtherWalletKitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = EtherWalletKitTests;
+			};
+			name = Debug;
+		};
+		OBJ_38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EtherWalletKit.xcodeproj/EtherWalletKitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = EtherWalletKitTests;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8D4CF402109F07D008476B8 /* Build configuration list for PBXNativeTarget "EtherWalletKitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D4CF412109F07D008476B8 /* Debug */,
+				E8D4CF422109F07D008476B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_18 /* Build configuration list for PBXNativeTarget "EtherWalletKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_19 /* Debug */,
+				OBJ_20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "EtherWalletKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_25 /* Build configuration list for PBXNativeTarget "EtherWalletKitPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_26 /* Debug */,
+				OBJ_27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_31 /* Build configuration list for PBXAggregateTarget "EtherWalletKitPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_32 /* Debug */,
+				OBJ_33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_36 /* Build configuration list for PBXNativeTarget "EtherWalletKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_37 /* Debug */,
+				OBJ_38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
